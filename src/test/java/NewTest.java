@@ -11,7 +11,7 @@ public class NewTest {
     static DesiredCapabilities cap = new DesiredCapabilities();
 
     @Test
-    public static void openBrowser() throws MalformedURLException {
+    public static void openCalculator() throws MalformedURLException {
 
 
         cap.setCapability("deviceName", "HTC Desire 626 Dual Sim");
